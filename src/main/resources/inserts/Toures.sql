@@ -1,7 +1,5 @@
-begin createTableIfNotExists('toures(
-    toure_id NUMBER PRIMARY KEY,
-    performance_id NUMBER NOT NULL REFERENCES performances(performance_id),
-    is_local NUMBER(1),
-    date_start DATE,
-    date_end DATE
- )'); end;
+INSERT INTO toures(performance_id, is_local, date_start, date_end ) VALUES(0, 1, TO_DATE('2003/06/04', 'yyyy/mm/dd'), TO_DATE('2003/07/04', 'yyyy/mm/dd'))
+INSERT INTO toures(performance_id, is_local, date_start, date_end ) VALUES(1, 0, TO_DATE('2005/06/04', 'yyyy/mm/dd'), TO_DATE('2005/07/04', 'yyyy/mm/dd'))
+INSERT INTO toures(performance_id, is_local, date_start, date_end ) VALUES(2, 0, TO_DATE('2008/06/04', 'yyyy/mm/dd'), TO_DATE('2008/07/04', 'yyyy/mm/dd'))
+INSERT INTO toures(performance_id, is_local, date_start, date_end ) VALUES(3, 0, TO_DATE('2012/06/04', 'yyyy/mm/dd'), TO_DATE('2012/07/04', 'yyyy/mm/dd'))
+INSERT INTO toures(performance_id, is_local, date_start, date_end ) VALUES(4, 0, TO_DATE('2017/06/04', 'yyyy/mm/dd'), TO_DATE('2017/07/04', 'yyyy/mm/dd'))

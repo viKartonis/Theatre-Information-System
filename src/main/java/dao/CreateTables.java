@@ -72,7 +72,6 @@ public class CreateTables {
             try {
                 connection.executeQuery(q);
             } catch (SQLException ignored) {
-               // ignored.printStackTrace();
             }
         }
     }
@@ -87,7 +86,6 @@ public class CreateTables {
             connection.executeQuery(writeScriptFromFile("procedures/createIfNotExists.sql"));
         }
         catch (SQLSyntaxErrorException e) {
-          //  return;
             e.printStackTrace();
 
         }

@@ -1,4 +1,5 @@
-begin createTableIfNotExists('user_roles(
-    user_role_id NUMBER PRIMARY KEY,
-    name VARCHAR2(256)
-)'); end;
+INSERT INTO user_roles(name) VALUES('Работник отдела кадров')
+INSERT INTO user_roles(name) VALUES('Менеджер расписания')
+INSERT INTO user_roles(name) VALUES('Постановщик')
+INSERT INTO user_roles(name) VALUES('Составитель брошюр')
+INSERT INTO user_roles(name) VALUES('Директор')

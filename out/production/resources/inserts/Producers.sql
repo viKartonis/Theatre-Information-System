@@ -1,4 +1,10 @@
-begin createTableIfNotExists('producers(
-    producer_id NUMBER PRIMARY KEY,
-    worker_id NUMBER NOT NULL REFERENCES workers(worker_id)
-)'); end;
+INSERT INTO producers(worker_id) VALUES(20)
+INSERT INTO producers(worker_id) VALUES(21)
+INSERT INTO producers(worker_id) VALUES(22)
+INSERT INTO producers(worker_id) VALUES(23)
+INSERT INTO producers(worker_id) VALUES(24)
+INSERT INTO producers(worker_id) VALUES(25)
+INSERT INTO producers(worker_id) VALUES(26)
+INSERT INTO producers(worker_id) VALUES(27)
+INSERT INTO producers(worker_id) VALUES(28)
+INSERT INTO producers(worker_id) VALUES(29)

@@ -1,7 +1,7 @@
 package gui;
 
 import dao.Connection;
-import dao.inserts.InsertInto;
+import dao.InsertInto;
 import gui.menuItems.MenuRole;
 
 import javax.swing.*;

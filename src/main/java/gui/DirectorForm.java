@@ -1,10 +1,7 @@
 package gui;
 
 import dao.Connection;
-import dao.inserts.InsertCharacteristics;
-import dao.inserts.InsertInto;
-import dao.inserts.InsertPerformances;
-import dao.inserts.InsertWorkers;
+import dao.InsertInto;
 import gui.menuItems.*;
 
 import javax.swing.*;
@@ -17,9 +14,12 @@ import java.util.List;
 public class DirectorForm {
 
     private Connection connection;
+    private InsertInto insertInto;
+
 
     public DirectorForm(Connection connection) {
         this.connection = connection;
+        insertInto = new InsertInto(connection);
     }
 
     private int selects(String query)
@@ -120,8 +120,7 @@ public class DirectorForm {
 
             int genreId = selects("SELECT genres_id FROM genres WHERE genres.name LIKE '" + menuGenres.getName() + "'");
 
-            InsertPerformances insertInto = new InsertPerformances(connection);
-            insertInto.insert(performanceNameText.getText(), producer_id, productorDesigner_id, performanceCategoryId,
+            insertInto.insertPerformance(performanceNameText.getText(), producer_id, productorDesigner_id, performanceCategoryId,
                     Integer.valueOf(coastText.getText()), conductorId, authorId, isPremierText.getText().equals("Да") ? 1 : 0,
                     dateText.getText(), genreId);
             System.out.println("INSERT");
@@ -235,12 +234,10 @@ public class DirectorForm {
         componentList.add(next);
         JFrame frame = ButtonMethods.setFrameParameters("Добавление работника", 500, 400, componentList);
         next.addActionListener((ActionEvent event) -> {
-            InsertCharacteristics characteristics = new InsertCharacteristics(connection);
-            int characteristicId = characteristics.insert(genderMenu.getName().equals("Мужской") ? 0 : 1, date_bdText.getText(), voiceMenu.getName(),
+            int characteristicId =insertInto.insertCharacteristics(genderMenu.getName().equals("Мужской") ? 0 : 1, date_bdText.getText(), voiceMenu.getName(),
                     Integer.valueOf(heightText.getText()), start_workText.getText(), Integer.valueOf(childText.getText()),
                     Integer.valueOf(salaryText.getText()));
-            InsertWorkers workers = new InsertWorkers(connection);
-            int workerId = workers.insert(nameText.getText(), characteristicId);
+            int workerId = insertInto.insertWorker(nameText.getText(), characteristicId);
             InsertInto insertInto = new InsertInto(connection);
             switch (positionMenu.getName()) {
                 case "Актёр" : {

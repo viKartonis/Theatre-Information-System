@@ -1,4 +1,10 @@
-begin createTableIfNotExists('rewards(
-                reward_id NUMBER PRIMARY KEY,
-                name VARCHAR2(250) NOT NULL,
-                date_b DATE)'); end;
+INSERT INTO rewards(name, date_b) VALUES('Оскар', TO_DATE('2003/06/04', 'yyyy/mm/dd'))
+INSERT INTO rewards(name, date_b) VALUES('Оскар', TO_DATE('2004/05/04', 'yyyy/mm/dd'))
+INSERT INTO rewards(name, date_b) VALUES('Золотой глобус', TO_DATE('2003/05/04', 'yyyy/mm/dd'))
+INSERT INTO rewards(name, date_b) VALUES('Золотой глобус', TO_DATE('2005/05/04', 'yyyy/mm/dd'))
+INSERT INTO rewards(name, date_b) VALUES('Золотой глобус', TO_DATE('2003/07/04', 'yyyy/mm/dd'))
+INSERT INTO rewards(name, date_b) VALUES('Премия Британской Академии', TO_DATE('2003/05/04', 'yyyy/mm/dd'))
+INSERT INTO rewards(name, date_b) VALUES('Премия Британской Академии', TO_DATE('2006/08/04', 'yyyy/mm/dd'))
+INSERT INTO rewards(name, date_b) VALUES('Премия Британской Академии', TO_DATE('2003/05/10', 'yyyy/mm/dd'))
+INSERT INTO rewards(name, date_b) VALUES('Сезар', TO_DATE('2003/05/04', 'yyyy/mm/dd'))
+INSERT INTO rewards(name, date_b) VALUES('Сезар', TO_DATE('2007/05/04', 'yyyy/mm/dd'))
