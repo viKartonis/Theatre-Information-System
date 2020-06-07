@@ -42,7 +42,7 @@ public class CreateTables {
     private String writeScriptFromFile(String relativePath) {
         try {
             return new String(Files.readAllBytes(Paths.get(
-                    "/Users/kartonis/Projects/Theatre-Information-System/src/main/resources/" + relativePath)));
+                    "src/main/resources/" + relativePath)));
         } catch (IOException e) {
             e.printStackTrace();
             return null;

@@ -2,47 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="359c4cfc-66af-4d83-b409-2610d69fefb9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/inserts/Users.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/dao/CreateTables.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/dao/inserts/InsertCharacteristics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/dao/inserts/InsertInto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/dao/inserts/InsertPerformances.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/dao/inserts/InsertWorkers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/gui/DirectorForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/gui/LogIn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/inserts/PerformanceCategories.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/inserts/PerformanceCategories.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/inserts/Performances.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/inserts/Performances.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/inserts/Producers.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/inserts/Producers.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/inserts/ProductorDesigners.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/inserts/ProductorDesigners.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/inserts/Rewards.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/inserts/Rewards.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/inserts/Roles.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/inserts/Roles.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/inserts/ToureActor.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/inserts/ToureActor.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/inserts/ToureProducers.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/inserts/ToureProducers.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/inserts/Toures.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/inserts/Toures.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/inserts/UserRoles.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/inserts/UserRoles.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/inserts/Users.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/inserts/Workers.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/inserts/Workers.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/dao/CreateTables.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/dao/CreateTables.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/dao/InsertInto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/dao/InsertInto.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dao/CreateTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/CreateTables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/inserts/InsertCharacteristics.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/inserts/InsertInto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/InsertInto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/inserts/InsertPerformances.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/inserts/InsertWorkers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/DirectorForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/DirectorForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/LogIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/inserts/PerformanceCategories.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/inserts/PerformanceCategories.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/inserts/Performances.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/inserts/Performances.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/inserts/Producers.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/inserts/Producers.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/inserts/ProductorDesigners.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/inserts/ProductorDesigners.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/inserts/Rewards.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/inserts/Rewards.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/inserts/Roles.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/inserts/Roles.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/inserts/ToureActor.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/inserts/ToureActor.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/inserts/ToureProducers.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/inserts/ToureProducers.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/inserts/Toures.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/inserts/Toures.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/inserts/UserRoles.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/inserts/UserRoles.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/inserts/Users.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/inserts/Workers.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/inserts/Workers.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/InsertInto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/InsertInto.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -89,38 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gui/menuItems/MenuRole.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/UserRoles.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gui/DirectorForm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1405">
-              <caret line="239" column="51" selection-start-line="239" selection-start-column="51" selection-end-line="239" selection-end-column="51" />
+            <state relative-caret-position="170">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,17 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dao/CreateTables.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Workers.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" column="52" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
+            <state relative-caret-position="570">
+              <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -149,8 +79,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dao/InsertInto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="146" column="94" selection-start-line="146" selection-start-column="94" selection-end-line="146" selection-end-column="94" />
+            <state relative-caret-position="195">
+              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao/Connection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/ToureProducers.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="62" selection-end-line="4" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -159,27 +116,32 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Toures.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="1" />
+              <caret selection-end-line="4" selection-end-column="154" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gui/menuItems/MenuProductorDesigner.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/UserRoles.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <caret line="4" column="47" selection-end-line="4" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gui/menuItems/MenuProducer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Workers.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="245">
+              <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Users.sql">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -265,7 +227,6 @@
         <option value="$PROJECT_DIR$/src/main/java/gui/HRForms.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/inserts/InsertInto.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/Menu.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/resources/inserts/PerformanceCategories.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/inserts/Performances.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/inserts/Producers.sql" />
@@ -278,10 +239,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/inserts/Toures.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/inserts/UserRoles.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/inserts/Workers.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/CreateTables.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/InsertInto.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/DirectorForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/CreateTables.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/InsertInto.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -339,13 +301,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gui" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Theatre-Information-System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Theatre-Information-System" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -356,12 +311,12 @@
     <property name="DatabaseDriversLRU" value="oracle" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591454905379" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591522935531" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -544,12 +499,12 @@
       <workItem from="1588931343540" duration="10719000" />
       <workItem from="1589050109782" duration="6181000" />
       <workItem from="1591024252144" duration="27681000" />
-      <workItem from="1591189711034" duration="16141000" />
+      <workItem from="1591189711034" duration="17620000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198159000" />
+    <option name="totallyTimeSpent" value="199638000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -564,7 +519,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21082391" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21082391" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -573,7 +528,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39863014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -582,7 +537,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32876712" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Duplicate detector" order="14" weight="0.32876712" />
@@ -668,27 +623,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/autoincrements/Characteristics.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/autoincrements/Conductors.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/autoincrements/Countries.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/autoincrements/Genres.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -787,84 +721,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Actors.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Characteristics.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Conductors.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Countries.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Genres.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Musicians.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/PerformanceCategories.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="59" lean-forward="true" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/inserts/InsertPerformances.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
           <caret line="40" column="60" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="40" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Producers.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/ProductorDesigners.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="50" selection-start-column="50" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Rewards.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="41" selection-start-column="41" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Performances.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="112" selection-start-line="35" selection-start-column="112" selection-end-line="35" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Roles.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="111" selection-start-line="9" selection-start-column="111" selection-end-line="9" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/ToureActor.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/ToureProducers.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="62" lean-forward="true" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -927,34 +787,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Toures.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Users.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/UserRoles.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/inserts/InsertWorkers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="16" selection-start-line="16" selection-end-line="71" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Workers.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="52" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -969,13 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/CreateTables.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gui/menuItems/MenuRole.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -983,30 +812,180 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/DirectorForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="-1165">
+          <caret line="239" column="51" selection-start-line="239" selection-start-column="51" selection-end-line="239" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Actors.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="39" selection-end-line="8" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Authors.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="9" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Characteristics.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="27" selection-end-column="199" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Conductors.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Countries.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Genres.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Musicians.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/PerformanceCategories.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="59" lean-forward="true" selection-end-line="2" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Performances.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="35" column="112" selection-end-line="35" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Producers.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="43" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/ProductorDesigners.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50" selection-end-line="9" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Rewards.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="41" selection-end-line="9" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Roles.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="111" selection-end-line="9" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/ToureActor.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="56" selection-end-line="4" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/ToureProducers.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="62" selection-end-line="4" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Toures.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="154" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/UserRoles.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="47" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Workers.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/inserts/Users.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/CreateTables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/InsertInto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="146" column="94" selection-start-line="146" selection-start-column="94" selection-end-line="146" selection-end-column="94" />
+        <state relative-caret-position="195">
+          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/DirectorForm.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1405">
-          <caret line="239" column="51" selection-start-line="239" selection-start-column="51" selection-end-line="239" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="298">
+          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
         </state>
       </provider>
     </entry>

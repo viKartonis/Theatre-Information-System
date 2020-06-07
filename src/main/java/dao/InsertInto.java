@@ -43,7 +43,7 @@ public class InsertInto {
     private List<String> writeScriptFromFile(String relativePath) {
         try {
             Scanner scanner = new Scanner(new String(Files.readAllBytes(Paths.get(
-                    "/Users/kartonis/Projects/Theatre-Information-System/src/main/resources/" + relativePath))));
+                    "src/main/resources/" + relativePath))));
             List<String> queries = new LinkedList<>();
             while (scanner.hasNext()) {
                 String script = scanner.nextLine();
