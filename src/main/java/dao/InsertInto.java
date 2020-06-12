@@ -33,9 +33,9 @@ public class InsertInto {
         tablesName.add("Performances.sql");
         tablesName.add("Roles.sql");
 
+        tablesName.add("Toures.sql");
         tablesName.add("ToureActor.sql");
         tablesName.add("ToureProducers.sql");
-        tablesName.add("Toures.sql");
         tablesName.add("UserRoles.sql");
         tablesName.add("Users.sql");
     }

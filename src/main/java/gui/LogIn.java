@@ -44,31 +44,31 @@ public class LogIn{
             {
                 case "Работник отдела кадров" :
                 {
-                    insertInto.insertUser(emailText.getText(), String.copyValueOf(passwordText.getPassword()), 0);
+                    insertInto.insertUser(emailText.getText(), String.copyValueOf(passwordText.getPassword()), 1);
                     menu.initPressHRWorkers();
                     break;
                 }
                 case "Менеджер расписания" :
                 {
-                    insertInto.insertUser(emailText.getText(), String.copyValueOf(passwordText.getPassword()), 1);
+                    insertInto.insertUser(emailText.getText(), String.copyValueOf(passwordText.getPassword()), 2);
                     menu.initPressSchedule();
                     break;
                 }
                 case "Составитель брошюр" :
                 {
-                    insertInto.insertUser(emailText.getText(), String.copyValueOf(passwordText.getPassword()), 2);
+                    insertInto.insertUser(emailText.getText(), String.copyValueOf(passwordText.getPassword()), 3);
                     menu.initPressBrochure();
                     break;
                 }
                 case "Постановщик" :
                 {
-                    insertInto.insertUser(emailText.getText(), String.copyValueOf(passwordText.getPassword()), 3);
+                    insertInto.insertUser(emailText.getText(), String.copyValueOf(passwordText.getPassword()), 4);
                     menu.initPressProducer();
                     break;
                 }
                 case "Директор" :
                 {
-                    insertInto.insertUser(emailText.getText(), String.copyValueOf(passwordText.getPassword()), 4);
+                    insertInto.insertUser(emailText.getText(), String.copyValueOf(passwordText.getPassword()), 5);
                     menu.initPressDirector();
                     break;
                 }
@@ -110,23 +110,23 @@ public class LogIn{
                 String userRoleId = passwordFromDb.get(0).get(1);
                 Menu menu = new Menu(connection);
                 switch (Integer.valueOf(userRoleId)) {
-                    case 0: {
+                    case 1: {
                         menu.initPressHRWorkers();
                         break;
                     }
-                    case 1: {
+                    case 2: {
                         menu.initPressSchedule();
                         break;
                     }
-                    case 2: {
+                    case 3: {
                         menu.initPressBrochure();
                         break;
                     }
-                    case 3: {
+                    case 4: {
                         menu.initPressProducer();
                         break;
                     }
-                    case 4: {
+                    case 5: {
                         menu.initPressDirector();
                     }
                 }

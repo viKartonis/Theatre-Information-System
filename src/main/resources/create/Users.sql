@@ -3,5 +3,6 @@ begin createTableIfNotExists('users(
     email VARCHAR2(256),
     password VARCHAR2(256),
     user_role_id NUMBER NOT NULL
-    REFERENCES user_roles(user_role_id)
+    REFERENCES user_roles(user_role_id),
+    CONSTRAINT users_unique UNIQUE (email, password, user_role_id)
 )'); end;

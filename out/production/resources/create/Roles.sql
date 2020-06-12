@@ -4,5 +4,6 @@ begin createTableIfNotExists('roles(
      characteristic_id NUMBER NOT NULL REFERENCES characteristics(characteristic_id),
      actor_id NUMBER NOT NULL REFERENCES workers(worker_id),
      understudy_id NUMBER NOT NULL REFERENCES workers(worker_id),
-     performance_is NUMBER NOT NULL REFERENCES performances(performance_id)
+     performance_is NUMBER NOT NULL REFERENCES performances(performance_id),
+     CONSTRAINT roles_unique UNIQUE (name, characteristic_id, actor_id, understudy_id, performance_is)
      )'); end;

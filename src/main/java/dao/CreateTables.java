@@ -32,9 +32,9 @@ public class CreateTables {
         tablesName.add("Performances.sql");
         tablesName.add("Roles.sql");
 
+        tablesName.add("Toures.sql");
         tablesName.add("ToureActor.sql");
         tablesName.add("ToureProducers.sql");
-        tablesName.add("Toures.sql");
         tablesName.add("UserRoles.sql");
         tablesName.add("Users.sql");
     }
@@ -67,11 +67,34 @@ public class CreateTables {
         return autoIncrements;
     }
 
+    private List<String> deleteSequences() {
+        List<String> autoIncrements = new LinkedList<>();
+        for(String name : tablesName)
+        {
+            autoIncrements.add(writeScriptFromFile("drop/dropSequences/" + name));
+        }
+        return autoIncrements;
+    }
+
+    private List<String> deleteTables() {
+        List<String> autoIncrements = new LinkedList<>();
+        for(String name : tablesName)
+        {
+            ((LinkedList<String>) autoIncrements).addFirst(writeScriptFromFile("drop/dropTables/" + name));
+        }
+        return autoIncrements;
+    }
+
+
     private void execForAll(List<String> queries) {
         for (String q : queries) {
             try {
                 connection.executeQuery(q);
-            } catch (SQLException ignored) {
+            }
+            catch (java.sql.SQLIntegrityConstraintViolationException ignored) {
+            }
+            catch (SQLException e) {
+                e.printStackTrace();
             }
         }
     }
@@ -92,6 +115,8 @@ public class CreateTables {
         catch (SQLException e) {
             e.printStackTrace();
         }
+       // execForAll(deleteSequences());
+       // execForAll(deleteTables());
         execForAll(createList);
         execForAll(addSequences());
         execForAll(addAutoincrement());

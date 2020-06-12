@@ -11,7 +11,7 @@ public class Connection {
     public Connection() throws SQLException {
         String url = "jdbc:oracle:thin:@84.237.50.81:1521:";
         Properties props = new Properties();
-        props.setProperty("user", "17210kartonis");
+        props.setProperty("user", "kartonis");
         props.setProperty("password", "123");
         conn = DriverManager.getConnection(url, props);
     }
@@ -30,16 +30,18 @@ public class Connection {
     public void executeQuery(List<String> queryList) throws SQLException {
         createConnection();
         for (String sqlQuery: queryList) {
-            PreparedStatement preStatement = conn.prepareStatement(sqlQuery);
-            preStatement.executeUpdate(sqlQuery);
-           // ResultSet result = preStatement.executeQuery();
+            try(PreparedStatement preStatement = conn.prepareStatement(sqlQuery)) {
+                preStatement.executeUpdate(sqlQuery);
+                // ResultSet result = preStatement.executeQuery();
+            }
         }
     }
     public void executeQuery(String sqlQuery) throws SQLException {
         createConnection();
-        PreparedStatement preStatement = conn.prepareStatement(sqlQuery);
-        preStatement.executeUpdate(sqlQuery);
-      //  ResultSet result = preStatement.executeQuery();
+        try(PreparedStatement preStatement = conn.prepareStatement(sqlQuery)) {
+            preStatement.executeUpdate(sqlQuery);
+            //  ResultSet result = preStatement.executeQuery();
+        }
     }
 
     public void insert(List<String> queryList) {
